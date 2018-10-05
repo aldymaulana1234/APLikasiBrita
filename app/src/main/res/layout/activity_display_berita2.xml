@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayBerita2">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="322dp"
+        android:layout_height="114dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="24dp"
+        android:text="MOBIL MACET DI REL KERETA API PASURUAN, IBU HAMIL TEWAS"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="200dp"
+        android:layout_height="126dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginRight="153dp"
+        android:layout_marginStart="31dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/berita2" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="344dp"
+        android:layout_height="184dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/berita21" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="93dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="23 September 2018"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+</android.support.constraint.ConstraintLayout>

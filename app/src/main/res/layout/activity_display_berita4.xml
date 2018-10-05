@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayBerita4">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="286dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="MOBIL BRIMOB KECELAKAAN DI DEPOK USAI ANTAR NAPI TERORIS"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="200dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginRight="143dp"
+        android:layout_marginStart="41dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/berita4" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="317dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/berita41" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="315dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="156dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/berita42" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="19 September 2018"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+</android.support.constraint.ConstraintLayout>

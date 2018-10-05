@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayBerita3">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="315dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:text="DETIK-DETIK TALI BUS PUTUS TEWASKAN SATU ORANG DI SUBANG"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="200dp"
+        android:layout_height="137dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="149dp"
+        android:layout_marginStart="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/berita3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="332dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/berita31" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="332dp"
+        android:layout_height="182dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/berita32" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="102dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:text="22 September 2018"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+</android.support.constraint.ConstraintLayout>
